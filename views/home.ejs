@@ -1,0 +1,95 @@
+<%- include("partials/header.ejs")%>
+<link rel="stylesheet" href="home.css">
+
+<nav class="navbar navbar-expand-lg navbar-fixed-top">
+	<div class="container">
+		  <a class="navbar-brand mynav brand" href="#">Fancy Routes</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link mynav" href="">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mynav" href="/gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mynav" href="/destinations">Destinations</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav navbar-right ">
+		  <li class="nav-item"><a class="nav-link mynav" href="/about">About </a></li>
+       	  <li class="nav-item"><a class="nav-link mynav"  href="/contact">Contact </a></li>
+      </ul>
+  </div>
+</div>
+</nav>
+	
+
+<div class="slideshow container">
+
+	<div class="slide-item ">
+  
+      <img src="https://images.pexels.com/photos/1148820/pexels-photo-1148820.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500"  class="pics showing"  alt="...">
+    </div>
+    <div class="slide-item">
+      <img src="https://images.pexels.com/photos/1181248/pexels-photo-1181248.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="pics" alt="...">
+    </div>
+    <div class="slide-item">
+      <img src="https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="pics" alt="...">
+    </div>
+  </div>
+
+	
+ <div class="container">
+ 	<div class="row">
+ 		<div class="col-lg-12">
+ 			<div class="content">
+ 				<h2>Blogs</h2> 				
+ 				<hr> 				
+ 			</div>
+ 		</div>
+ 	</div>
+ </div>
+
+<div class="container">
+	<div class="row">
+		<div class="col lg-4 mb-4">
+			<div class="card" style="width: 18rem;">
+  <img src="https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-link">Go somewhere</a>
+  </div>
+</div>
+		</div>
+		<div class="col lg-4 mb-4">
+			<div class="card" style="width: 18rem;">
+  <img src="https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-link">Go somewhere</a>
+  </div>
+</div>
+		</div>
+		<div class="col lg-4 mb-4">
+			<div class="card" style="width: 18rem;">
+  <img src="https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+    <a href="#" class="btn btn-link">Go somewhere</a>
+  </div>
+</div>
+		</div>
+	</div>	
+</div>
+	
+	<script type="text/javascript" src="home.js"></script>		
+
+
+<%- include("partials/footer.ejs")%>

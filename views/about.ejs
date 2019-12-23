@@ -1,0 +1,65 @@
+<%- include("partials/header.ejs") %>
+<link rel="stylesheet" href="home.css">
+<nav class="navbar navbar-expand-lg navbar-fixed-top">
+	<div class="container">
+		  <a class="navbar-brand mynav brand" href="#">Fancy Routes</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link mynav" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mynav" href="/gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mynav" href="/destinations">Destinations</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav navbar-right ">
+		  <li class="nav-item"><a class="nav-link mynav" href="/about">About </a></li>
+       	  <li class="nav-item"><a class="nav-link mynav"  href="/contact">Contact </a></li>
+      </ul>
+  </div>
+</div>
+</nav>
+
+<hr> 
+
+<div class="container">
+	<h1>
+		ABOUT US
+	</h1>
+	<div class="container d-flex jutify-content-center">
+		<div class="row">
+			<div class="col-lg-4 col-md-6 col-sm-6">				
+					<img src="https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" class="rounded mx-auto d-block ">
+						<div class="d-flex justify-content-center">
+						<h3>
+							Manali Biswas
+						</h3>	
+						
+					</div>						
+				</div>				
+			</div>				
+			<div class="col-lg-4 col-md-6 col-sm-6">				
+					<img src="https://images.pexels.com/photos/672358/pexels-photo-672358.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=300" class="rounded mx-auto d-block ">
+					<div class="d-flex justify-content-center">
+						<h3>
+							Manali Biswas
+						</h3>	
+						
+					</div>				
+			</div>
+		</div>
+</div>
+		<hr>
+		<p>
+			Blah Blah Blah
+		</p>
+	
+
+
+<%- include("partials/footer.ejs") %>

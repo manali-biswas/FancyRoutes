@@ -1,0 +1,37 @@
+.nav-item{
+	z-index:500;
+}
+.brand{
+	padding-right:.8rem;
+	border-right:2px solid #000001;
+	text-decoration:underline;
+}
+.mynav{
+	color: #000001;
+	font-weight:bold;
+	z-index:500;
+	text-decoration:none;
+}	
+.slideshow {
+   
+  height: 500px;
+  
+}
+
+.pics{
+	height:500px;
+	width:95%;
+	left:35px;	
+	top:0px;
+	position:absolute;
+	opacity:0;
+	transition:opacity 2s;
+	z-index:1;
+}
+
+
+
+.showing{
+	opacity:1;
+	z-index:2;
+}

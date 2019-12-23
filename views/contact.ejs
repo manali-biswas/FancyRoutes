@@ -1,0 +1,48 @@
+<%- include("partials/header.ejs")%>
+
+<link rel="stylesheet" href="home.css">
+<nav class="navbar navbar-expand-lg navbar-fixed-top">
+	<div class="container">
+		  <a class="navbar-brand mynav brand" href="#">Fancy Routes</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarText">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link mynav" href="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mynav" href="/gallery">Gallery</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link mynav" href="/destinations">Destinations</a>
+      </li>
+    </ul>
+    <ul class="navbar-nav navbar-right ">
+		  <li class="nav-item"><a class="nav-link mynav" href="/about">About </a></li>
+       	  <li class="nav-item"><a class="nav-link mynav"  href="/contact">Contact </a></li>
+      </ul>
+  </div>
+</div>
+</nav>
+
+<hr>
+
+<div class="container">
+	<p>
+		We love to write travel blogs as we like to share our experiences and memories with others.
+		Feel free to fill out the form below and write to us.
+		We would love to hear from you!!
+	</p>
+	<form action='/addreview' method='POST'>
+		<input type='text'  name='name' placeholder='Name'>
+		<input type='email'  name='email' placeholder='Email ID'>
+		<input type='text'  name='review' placeholder='Review'>
+		<button >
+			Submit
+		</button>
+	</form>
+</div>
+
+<%- include("partials/footer.ejs")%>
